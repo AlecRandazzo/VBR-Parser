@@ -1,1 +1,4 @@
+[![CircleCI](https://circleci.com/gh/AlecRandazzo/GoFor-VBR-Parser.svg?style=svg)](https://circleci.com/gh/AlecRandazzo/GoFor-VBR-Parser) [![codecov](https://codecov.io/gh/AlecRandazzo/GoFor-VBR-Parser/branch/master/graph/badge.svg)](https://codecov.io/gh/AlecRandazzo/GoFor-VBR-Parser) [![GoDoc](https://godoc.org/github.com/AlecRandazzo/BinaryTransforms?status.png)](https://godoc.org/github.com/AlecRandazzo/GoFor-VBR-Parser) [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/AlecRandazzo/GoFor-VBR-Parser/issues) 
+
 # GoFor-VBR-Parser
+This library can parse an NTFS volume boot record byte slice to pull out the necessary information to collect data from an NTFS volume.
