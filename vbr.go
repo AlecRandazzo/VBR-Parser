@@ -7,7 +7,7 @@
  *
  */
 
-package GoFor_VBR_Parser
+package vbr
 
 import (
 	"encoding/binary"
@@ -17,6 +17,7 @@ import (
 	"math"
 )
 
+// VolumeBootRecord contains relevant data about an NTFS volume
 type VolumeBootRecord struct {
 	VolumeLetter           string
 	BytesPerSector         int64
@@ -27,10 +28,10 @@ type VolumeBootRecord struct {
 	ClustersPerIndexRecord int64
 }
 
-// []byte alias containing bytes of a raw volume boot record. Used as a receiver for Parse().
+// RawVolumeBootRecord is a []byte alias containing bytes of a raw volume boot record. Used as a receiver for Parse().
 type RawVolumeBootRecord []byte
 
-// Parses a byte slice containing an NTFS volume boot record (VBR)
+// Parse parses a byte slice containing an NTFS volume boot record (VBR)
 func (rawVolumeBootRecord RawVolumeBootRecord) Parse() (vbr VolumeBootRecord, err error) {
 	// Sanity check that we have the right data
 	sizeOfRawVolumeBootRecord := len(rawVolumeBootRecord)

@@ -7,7 +7,7 @@
  *
  */
 
-package GoFor_VBR_Parser
+package vbr
 
 import (
 	"reflect"
