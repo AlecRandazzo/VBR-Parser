@@ -13,7 +13,7 @@ import (
 	"encoding/binary"
 	"errors"
 	"fmt"
-	bin "github.com/AlecRandazzo/BinaryTransforms"
+	bin "github.com/Go-Forensics/BinaryTransforms"
 	"math"
 )
 
