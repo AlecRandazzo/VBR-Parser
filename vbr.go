@@ -6,7 +6,7 @@ import (
 	"encoding/binary"
 	"errors"
 	"fmt"
-	bin "github.com/Go-Forensics/BinaryTransforms"
+	bin "github.com/AlecRandazzo/BinaryTransforms"
 	"math"
 )
 

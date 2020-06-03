@@ -1,5 +1,5 @@
-module github.com/Go-Forensics/VBR-Parser
+module github.com/AlecRandazzo/VBR-Parser
 
 go 1.14
 
-require github.com/Go-Forensics/BinaryTransforms v1.3.3
+require github.com/AlecRandazzo/BinaryTransforms v1.3.5
